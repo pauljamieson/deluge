@@ -1,6 +1,6 @@
 {
-  "name": "deluge",
-  "version": "1.7.1",
+  "name": "better-deluge",
+  "version": "1.8.0",
   "description": "add magnet links and torrents to deluge",
   "main": "index.js",
   "scripts": {
@@ -8,26 +8,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ginman86/deluge.git"
+    "url": "git+https://github.com/pauljamieson/deluge.git"
   },
   "keywords": [
     "deluge",
     "deluge-webui",
     "torrent"
   ],
-  "author": "Greg Inman <ginman86@gmail.com> (https://github.com/ginman86)",
-  "contributors": [{
-    "name": "Antoine Aflalo",
-    "email": "antoineaf+npm@admincmd.com"
-  }],
+  "author": "Paul Jamieson <paul.jamieson.ca@gmail.com> (https://github.com/pauljamieson)",
+  "contributors": [],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ginman86/deluge/issues"
+    "url": "https://github.com/pauljamieson/deluge/issues"
   },
   "dependencies": {
-    "restler": "git://github.com/ginman86/restler",
+    "restler": "git://github.com/ginman86/restler.git",
     "valid-url": "1.0.x"
   },
-  "readmeFilename": "README.md",
-  "homepage": "https://github.com/ginman86/deluge"
+  "homepage": "https://github.com/pauljamieson/deluge"
 }
